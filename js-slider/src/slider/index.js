@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Container } from './styles'
+// import { Container } from './styles'
 
 class homepage extends Component {
     constructor(props) {
@@ -9,9 +9,9 @@ class homepage extends Component {
 
   render() {
     return (
-      <Container>
-            hey
-      </Container>
+      <div>
+        hello
+      </div>
     )
   }
 }
