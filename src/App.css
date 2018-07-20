@@ -1,0 +1,44 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  background-color: white;
+  background: url("./homepage1.jpg") no-repeat center center fixed; 
+  background-size: contain;
+} 
+
+
+.one { 
+  justify-content: center;
+  font-style: normal;
+  align-self: flex-end;
+}
+
+
+.main-pics-cont{
+  display: flex;
+  justify-content: center;
+}
+
+.car-pix{
+  width: 200px;
+  height: 100px;
+  margin-bottom: 10.5%;
+  border: 5px solid white;
+  box-shadow: 10px 10px 10px #888888;
+  margin-right: 7px;
+} 
+
+.img-wrap {
+  overflow: hidden;
+  width: 50%
+}
+
+img {
+  width: 100%;
+  width: calc(currentWidth - 20%);
+}
+
+.buttons-cont{
+  margin-bottom: 200px;
+}
