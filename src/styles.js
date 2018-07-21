@@ -3,19 +3,20 @@ import styled from 'react-emotion'
 export const Container = styled('div')`
 display: flex;
 flex-direction: row;
-justify-content: center; 
-background-color: white;
-background-size: contain;
 `
 export const Pix = styled('div')`
 display: felx;
-width: 300px;
-height: 200px;
-border: 5px solid white;
-box-shadow: 10px 10px 10px #888888;
-margin-right: 7px;
+height: 40em;
+width: 100%;
+overflow: hidden;
+> img {
+  height: 100%;
+  width: 100%;
+}
 `
+
 export const Spic = styled('div')`
-margin-bottom: 200px;
-box-shadow: 6px 0px 0px 6px;
+display: flex;
+flex-direction: row;
+
 `
